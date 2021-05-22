@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <button type="button" class="btn btn-dark dmode darklight">
+          Dark/Light Mode
+        </button>
+      </div>
+      <h1>Quiz</h1>
+      <div class="qna">
+        <h3 class="question">Questtion</h3>
+        <ul>
+          <input type="radio" name="ans" class="answer" id="ans1" />&nbsp
+          <label id="option1">1</label>
+          <br />
+
+          <input type="radio" name="ans" class="answer" id="ans2" />&nbsp
+          <label id="option2">2</label>
+          <br />
+
+          <input type="radio" name="ans" class="answer" id="ans3" />&nbsp
+          <label id="option3">3</label>
+          <br />
+
+          <input type="radio" name="ans" class="answer" id="ans4" />&nbsp
+          <label id="option4">4</label>
+          <br />
+        </ul>
+        <div class="next">
+          <button type="button" class="btn btn-success">Submit</button>
+        </div>
+        <div class="showscore scorearea"></div>
+      </div>
+    </div>
+  </body>
+</html>
